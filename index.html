@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	var W = 0;
+	function test() {
+		var t = document.getElementById("a");
+		var b = document.createElement("table");
+		a.appendChild(b);
+		for (var j = 0; j < 3; j++) {
+			var c = document.createElement("tr");
+			b.appendChild(c);
+			for (var i = 0; i < 3; i++) {
+				var e = document.createElement("td");
+				c.appendChild(e);
+				var f = document.createElement("img");
+				f.src = "z_1_attack_0" + (W + i) + ".png";
+				f.style = "width:300px;height:250px;background:yellow;"
+				e.appendChild(f);
+			}
+			W += 3;
+		}
+	}
+</script>
+</head>
+<body onload="test()">
+	<div id="a"></div>
+</body>
+</html>

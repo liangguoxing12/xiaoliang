@@ -1,0 +1,24 @@
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function test(){
+	var t=ducoment.getElementById("a");
+	var b=ducoment.createElement("table");
+	a.appendchild(b);
+	var c=ducoment.createElement("tr");
+	b.appendchild(c);
+	for (var i = 0; i < 9; i++) {
+	var e=ducoment.createElement("td");
+	c.appendchild(e);
+	var f=ducoment.createElement("img");
+	e.appendchild(f);
+	e.src = "attack/z_1_attack_00.png";
+	e.style="width:300px;height:250px;background:yellow;"
+}}
+</script>
+</head>
+<body onload="test()">
+<div id="a"></div>
+</body>
+</html>
